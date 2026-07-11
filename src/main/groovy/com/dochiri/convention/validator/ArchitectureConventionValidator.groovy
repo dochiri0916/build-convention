@@ -3,10 +3,9 @@ package com.dochiri.convention.validator
 import com.dochiri.convention.extension.HexagonalConventionExtension
 import org.gradle.api.Project
 
-@Deprecated
-final class ClaudeConventionValidator {
+final class ArchitectureConventionValidator {
 
-    private ClaudeConventionValidator() {
+    private ArchitectureConventionValidator() {
     }
 
     static List<String> validate(Project project, HexagonalConventionExtension convention) {
